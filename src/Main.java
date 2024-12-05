@@ -9,7 +9,7 @@ public class Main {
 3. переменной paper значение 763789.
 Выведите значения каждой переменной в консоль. */
 
-        var dog = 8;
+        var dog = 8.0;
         System.out.println(dog);
 
         var cat = 3.6;
@@ -36,9 +36,9 @@ public class Main {
 Выведите в консоль новые значения переменных. Для решения этой задачи
 используйте тип переменной var. */
 
-        System.out.println(increase + dog - 3.5);
-        System.out.println(increase + cat - 1.6);
-        System.out.println(increase + paper - 7639);
+        System.out.println( dog - 3.5);
+        System.out.println( cat - 1.6);
+        System.out.println( paper - 7639);
 
         /* Задача 4
 Инициализируйте (присвойте значение) переменную friend значением 19.
